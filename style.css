@@ -1,0 +1,131 @@
+body {
+  background-color: #36393f;
+  margin: 0;
+  overflow-x: hidden;
+}
+.welcome {
+  background-image: url("./images/blue-lcave.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  margin: 0%;
+  border-bottom: 20px solid #292b2f;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.3);
+}
+#title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 32vh;
+  width: min(50%);
+}
+#header {
+  margin-right: 3%;
+  margin-top: 1%;
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: min-content;
+  list-style: none;
+  background-color: #2f3136;
+  border: 3px solid #292b2f;
+  border-radius: 30px;
+  height: min-content;
+  width: 23.79125em;
+}
+.head {
+  text-decoration: none;
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  font-size: 1.5625em;
+  padding: 10px;
+  color: #7188db;
+}
+.season {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 2.75vh;
+  color: #7188db;
+}
+#season {
+  width: 20%;
+  height: minmax(10%, 8%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#favi {
+  width: 3.125em;
+  height: 3.125em;
+}
+.logo {
+  width: 64px;
+  height: 64px;
+  background-color: #2F3136;
+  border: 4px solid #292B2F;
+  border-radius: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subtitle {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 2.75vh;
+  color: #7188db;
+}
+.discord-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+.inner-border {
+  margin: 3%;
+  background-color: #2f3136;
+  border: 3px solid #292b2f;
+  border-radius: 10px;
+  width: 400px;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 32px 0px rgba(113, 136, 219, 0.3);
+}
+.in-inner-border {
+  background-color: #22262B;
+  border-radius: 10px;
+  width: 96.85%;
+  margin: 1%;
+  border: 3px solid #202225;
+}
+p {
+  font-family: "Lexend Peta", sans-serif;
+  margin: 5%;
+  font-size: 2vh;
+  color: white;
+}
+.welcome1 , .column {
+  margin: 10px;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  height: min-content;
+  width: 21.875em;
+  min-width: 31.25em;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+  height: min-content;
+}
+.subtitle-title {
+  width: 40%;
+  height: minmax(10%, 8%);
+  margin-top: 1vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
